@@ -58,7 +58,7 @@ function ref(){
  * @param   mixed $args
  * @return  void|string
  */
-function rt(){
+function reftext(){
   $args        = func_get_args();
   $options     = array();  
   $output      = '';
