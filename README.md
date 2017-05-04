@@ -5,8 +5,7 @@ This is wrapper of excelent little library [php-ref](https://github.com/digitaln
 
 Php-ref is nice alternative to ```print_r()``` and ```var_dump()```.
 
-
-
+![alt text](https://github.com/floriankarsten/kirby-ref/raw/stuff/kirby-ref.gif "Kirby ref GIF")
 
 ## Installation
 To install the plugin, please put it in the `site/plugins` directory.  
