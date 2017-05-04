@@ -1,0 +1,8 @@
+{
+  "name": "kirby-ref",
+  "description": "Kirby REF plugin",
+  "author": "@digitalnature (https://github.com/digitalnature) packaged by Florian Karsten <mail@floriankarsten.com>",
+  "version": "0.1",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
