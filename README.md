@@ -7,4 +7,10 @@ This is wrapper of excelent little library [php-ref](https://github.com/digitaln
 Php-ref is alternative to ```print_r()``` and ```var_dump()```.
 
 
+
+
+
+
 ## Usage
+
+Use simply as ```ref($var)```
