@@ -7,6 +7,17 @@ Php-ref is nice alternative to ```print_r()``` and ```var_dump()```.
 
 ![alt text](https://github.com/floriankarsten/kirby-ref/raw/stuff/kirby-ref.gif "Kirby ref GIF")
 
+
+## Usage
+
+Use simply as ```ref($var)``` instead of ```var_dump($var)```. There is also ```reftext($var)``` which is ref in plain text mode. 
+
+*Notice:* It only works if kirby is in debug mode ```c::set('debug', 'true')```. If you don't have kirby in debug mode, nothing will show up. This is intentional.
+
+Both of the functions have different name from original [php-ref](https://github.com/digitalnature/php-ref) because of name collision. Proposals for better function names are welcome. Or just rename it yourself :).
+
+
+
 ## Installation
 To install the plugin, please put it in the `site/plugins` directory.  
 The plugin folder must be named `kirby-ref`.
@@ -28,9 +39,3 @@ Link to latest version https://github.com/floriankarsten/kirby-ref/releases/late
 ```git clone https://github.com/floriankarsten/kirby-ref/releases.git kirby-ref```
 You can of course have it as submodule. There won't be many updates.
 
-
-## Usage
-
-Use simply as ```ref($var)``` instead of ```var_dump($var)```. There is also ```reftext($var)``` which is ref in plain text mode. It only works if kirby is in debug mode ```c::set('debug', 'true')```.
-
-Both of the functions have different name from original [php-ref](https://github.com/digitalnature/php-ref) because of name collision. Proposals for better function names are welcome. Or just rename it yourself :).
