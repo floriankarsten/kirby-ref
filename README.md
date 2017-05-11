@@ -12,7 +12,7 @@ Php-ref is nice alternative to ```print_r()``` and ```var_dump()```.
 
 Use simply as ```ref($var)``` instead of ```var_dump($var)```. There is also ```reftext($var)``` which is ref in plain text mode. 
 
-*Notice:* It only works if kirby is in debug mode ```c::set('debug', 'true')```. If you don't have kirby in debug mode, nothing will show up. This is intentional.
+**Notice:** It only works if kirby is in debug mode ```c::set('debug', 'true')```. If you don't have kirby in debug mode, nothing will show up. This is intentional.
 
 Both of the functions have different name from original [php-ref](https://github.com/digitalnature/php-ref) because of name collision. Proposals for better function names are welcome. Or just rename it yourself :).
 
