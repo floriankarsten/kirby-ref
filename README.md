@@ -31,4 +31,6 @@ You can of course have it as submodule. There won't be many updates.
 
 ## Usage
 
-Use simply as ```ref($var)``` instead of ```var_dump($var)```. There is also ```reftext($var)``` which is ref in plain text mode. Both of the functions have different name from original [php-ref](https://github.com/digitalnature/php-ref) because of name collision. Proposals for better function names are welcome. Or just rename it yourself :).
+Use simply as ```ref($var)``` instead of ```var_dump($var)```. There is also ```reftext($var)``` which is ref in plain text mode. It only works if kirby is in debug mode ```c::set('debug', 'true')```.
+
+Both of the functions have different name from original [php-ref](https://github.com/digitalnature/php-ref) because of name collision. Proposals for better function names are welcome. Or just rename it yourself :).
