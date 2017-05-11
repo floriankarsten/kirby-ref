@@ -7,7 +7,10 @@
  * @return  void|string
  */
 function ref(){
-
+  //Check if kirby is not in debug mode. Silently skip function if it isnt.
+  if(!c::get('debug')) {
+    return;
+  }
   // arguments passed to this function
   $args = func_get_args();
 
@@ -59,6 +62,12 @@ function ref(){
  * @return  void|string
  */
 function reftext(){
+
+  //Check if kirby is not in debug mode. Silently skip function if it isnt.
+  if(!c::get('debug')) {
+    return;
+  }
+
   $args        = func_get_args();
   $options     = array();  
   $output      = '';
