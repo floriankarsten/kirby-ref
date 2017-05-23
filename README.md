@@ -5,7 +5,7 @@ This is wrapper of excelent little library [php-ref](https://github.com/digitaln
 
 Php-ref is nice alternative to ```print_r()``` and ```var_dump()```.
 
-![Kirby ref GIF](https://github.com/floriankarsten/kirby-ref/raw/stuff/kirby-ref.gif "Kirby ref GIF")
+![Kirby tablex GIF](https://raw.githubusercontent.com/floriankarsten/kirby-tablex/stuff/kirby-tablex.gif "Kirby tablex GIF")
 
 
 ## Usage
